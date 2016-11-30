@@ -25,7 +25,7 @@ function baited(){
 		document.getElementById("topText").innerHTML = "You have been baited " + baitCount + " times.";
 	}
 	
-	if(baitCount >= 20 && <= 25){
+	if(baitCount >= 20 && baitCount <= 25){
 		document.getElementById("topText").innerHTML = "I can't watch! Please, have some better bait!"
 		bait2 = true;
 	}
